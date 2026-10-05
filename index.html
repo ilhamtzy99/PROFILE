@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Liquid Background Orbs -->
+    <div class="liquid-bg-wrapper" aria-hidden="true">
+        <div class="liquid-orb liquid-orb-1"></div>
+        <div class="liquid-orb liquid-orb-2"></div>
+        <div class="liquid-orb liquid-orb-3"></div>
+        <div class="liquid-orb liquid-orb-4"></div>
+    </div>
+
+    <!-- Header Navbar -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#home" class="nav-brand">ILHAM MUHAMMAD ADIEN</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#aspiration">Aspiration</a></li>
+                <li><a href="#it-interest">IT Interest</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-salutation">HELLO, I'M</span>
+                    <h1 class="hero-title">
+                        Ilham<br>
+                        Muhammad<br>
+                        Adien
+                    </h1>
+                    <p class="hero-subtitle">Computer Engineering Student</p>
+                    <p class="hero-bio">
+                        .
+                    </p>
+                    <a href="#profile" class="hero-btn">EXPLORE PROFILE &rarr;</a>
+                </div>
+                <div class="hero-media">
+                    <div class="glass-photo-card">
+                        <!-- ponytail: fallback image handling; upgrade path: point directly to student photo -->
+                        <img src="images/ilhamm.jpg" alt="Ilham Muhammad Adien" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="photo-placeholder" style="display:none;">
+                            <span>PHOTO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="section-padding">
+            <div class="container">
+                <div class="section-tag">01 / PROFILE</div>
+                <div class="glass-panel profile-panel">
+                    <h2 class="panel-heading">PROFILE MAHASISWA</h2>
+                    <div class="profile-grid">
+                        <div class="profile-meta">
+                            <div class="meta-row">
+                                <span class="meta-label">Nama</span>
+                                <span class="meta-value">Ilham Muhammad Adien</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">NIM</span>
+                                <span class="meta-value">2405110001</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">Program Studi</span>
+                                <span class="meta-value">Teknik Komputer</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">Tahun Angkatan</span>
+                                <span class="meta-value">2024</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">Instansi</span>
+                                <span class="meta-value">Universitas Negeri Semarang</span>
+                            </div>
+                        </div>
+                        <div class="profile-text">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="section-padding">
+            <div class="container">
+                <div class="section-tag">02 / BEYOND CAMPUS</div>
+                <div class="activities-layout">
+                    <h2 class="large-display-title">KESIBUKAN SAYA<br>DI LUAR KULIAH</h2>
+                    <div class="glass-panel activities-panel">
+                        <p class="activities-body">
+                            Kesibukan saya diluar kuliah yaitu ada beberapa kegiatan seperti mengikuti organisasi/UKM, selain itu saya juga memiliki hobi fotografi dimana hasil fotonya saya jual di beberapa platform seperti Dreams Time, Sutter Stock Contributor, dan Adobe Stock. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aspiration Section -->
+        <section id="aspiration" class="section-padding">
+            <div class="container">
+                <div class="section-tag">03 / MY ASPIRATION</div>
+                <div class="aspiration-container">
+                    <p class="aspiration-sub">"CITA-CITA"</p>
+                    <div class="glass-panel aspiration-panel">
+                        <h2 class="aspiration-quote">Web Development, Software Engineer</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IT Interest Section -->
+        <section id="it-interest" class="section-padding">
+            <div class="container">
+                <div class="section-tag">04 / IT FIELD I WANT TO MASTER</div>
+                <div class="glass-panel interest-panel">
+                    <h2 class="interest-title">WEB DEVELOPMENT</h2>
+                    <p class="interest-text">
+                        Bidang ini merupakan area yang ingin saya pelajari secara mendalam hingga menjadi keahlian utama saya.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <span>ILHAM MUHAMMAD ADIEN &mdash; TEKNIK KOMPUTER</span>
+            <span>&copy; 2026 Personal Portfolio</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
